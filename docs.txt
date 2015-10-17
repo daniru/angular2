@@ -12,9 +12,3 @@ npm i angular2@2.0.0-alpha.42 sysmtejs@0.19.2 --save --save-exact
 		"start": "live-server"
 	}
 }
-
-
-//bootstrap
-document.addEventListener('DOMContentLoaded', function(){
-	ng.bootstrap(AppComponent);
-});
