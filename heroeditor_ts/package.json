@@ -1,0 +1,21 @@
+{
+  "name": "angular2-heroeditor_ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  },
+  "keywords": [],
+  "author": "daniru",
+  "license": "ISC",
+  "description": "angular-heroeditor-ts by daniru",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.42",
+    "systemjs": "0.19.2"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.1",
+    "typescript": "^1.6.2"
+  }
+}
