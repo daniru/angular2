@@ -33,10 +33,10 @@ export class SimpleForm{
 	
 	movie = new ControlGroup({
 		name: new Control("a"),
-		one: new Control(true)
-		two: new Control("#ff0000")
-		three: new Control("", Validators.required)
-		four: new Control("", Validators.minLength(3))
+		one: new Control(true),
+		two: new Control("#ff0000"),
+		three: new Control("", Validators.required),
+		four: new Control("", Validators.minLength(3)),
 		select: new Control(this.selectOptions[1])
 	});
 	// threre is an object call FormBuilder (investigate).

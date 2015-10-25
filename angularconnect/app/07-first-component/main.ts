@@ -4,7 +4,7 @@ import {SecondComponent} from "./secondComponent";
 
 @Component({
 	selector: 'app',
-	directives: [FirstComponent, SecondComponent]
+	directives: [FirstComponent, SecondComponent],
 	template: `
 		<first-component></first-component>
 		<second-component></second-comonent>

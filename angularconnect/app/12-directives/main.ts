@@ -4,7 +4,7 @@ import {provide, HostListener, HostBinding,  Directive, Component, bootstrap} fr
 	selector: '[hi]',
 })
 class Hi{
-	message;
+	public message;
 	
 	@HostListener('click') onClick(){
 		console.log ("click on the  host", this.message);
@@ -18,7 +18,7 @@ class Hi{
 	selector: 'app',
 	directives: [Hi], 
 	template: `
-	<div hi>
+	<div hi='hola'>
 		Hello
 	</div>
 	`

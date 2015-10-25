@@ -6,23 +6,11 @@ System.config({
         "emitDecoratorMetadata": true
     },
     packages: {
-        "app": {
+       "demos": {
             defaultExtension: 'ts',
             format: 'es6'
         },
-        "app-steps": {
-            defaultExtension: 'ts',
-            format: 'es6'
-        },
-        "examples": {
-            defaultExtension: 'ts',
-            format: 'es6'
-        },
-        "exercise": {
-            defaultExtension: 'ts',
-            format: 'es6'
-        },
-        "exercise-solutions": {
+        "angularconnect": {
             defaultExtension: 'ts',
             format: 'es6'
         }
